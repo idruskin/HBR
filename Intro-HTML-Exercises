@@ -2,4 +2,9 @@
 // How many elements on the home page of HBR.org have an id attribute? Provide the JavaScript code you wrote for this.
 document.querySelectorAll("[id]").length
 // Using the Chrome Styles panel, change the link color of the "Subscribe" link in the HBR.org navigation menu from red to blue
-
+.top-header--mobile-mega-menu .subscribe-v2, .top-header--subscribe .subscribe-v2 {
+    color: #fff;
+    background-color: #2200dc;
+    padding-bottom: 11px!important;
+}
+    //where it says red for subscribe change color to blue
